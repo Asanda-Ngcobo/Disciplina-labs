@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Golos+Text&family=Montserrat&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(rgb(238, 217, 217));
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+nav{
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 20px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+nav ul li{
+    display: inline-block;
+    margin-left: 40px;
+    list-style: none;
+   
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+    transition: 2s;
+}
+
+a {
+    cursor: pointer;
+}
+.disciplina_link{
+  
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+  
+}
+
+.disciplina_link:hover{
+    text-decoration: none;
+   
+    background-color: black;
+    color: white;
+    border: none;
+   
+}
+
+.header{
+width: 100%;
+
+position: relative;
+padding: 0 5;
+
+}
+
+.emphasis{
+    color: brown;
+}
+
+.summary{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 3%;
+    border-bottom: 1px solid black;
+}
+
+.summary h1{
+    color: black;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 3%;
+   
+}
+
+.content-section{
+  
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 2%;
+    line-height: 26px;
+    border-bottom: 1px solid black ;
+   
+}
+
+.content-section p{
+    margin-bottom: 15px;
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+}
+
+.content-section h6{
+    text-align: center;
+}
+.pictures{
+    display: flex;
+}
+.content-section h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+.image1{
+    display: flex;
+   
+}
+
+.image1 p{
+    margin-top: 10%;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    padding: 50px;
+}
+.image1 img{
+    margin: 20px;
+    border-radius: 10px;
+    width: 30%;
+    
+  
+}
+
+.image{
+    display: flex;
+   
+}
+
+.image p{
+    margin-top: 10%;
+    position: relative;
+    font-size: 30px;
+    text-align: center;
+    padding: 50px;
+}
+.image img{
+    margin: 20px;
+    border-radius: 10px;
+    width: 50%;
+    
+  
+}
+
+footer{
+    background-color: black;
+    height: 50vh;
+    margin-bottom: 0%;
+
+    color: black;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+ footer ul{
+    
+    display: flex;
+   
+
+}
+footer ul li{
+  
+    text-decoration: none;
+    list-style: none;
+    padding: 20px;
+    margin-top: 10%;
+}
+footer ul li a{
+    color: white;
+    text-decoration: none;
+    
+   
+}
+footer ul li a:hover{
+    font-weight: bolder;
+}
+
+footer ul li a img:hover{
+    width: 25px;
+}
+
+footer ul li:last-child{
+    margin-left: 50%;
+}
+
+.section--hidden{
+    opacity: 0;
+    transform: translateY(8rem) ;
+}
+
+.copyright{
+    color: white;
+}
+
+@media screen and (min-width: 300px) and (max-width: 917px) {
+  
+
+    nav{
+        width: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+        padding: 20px ;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    
+    
+    nav ul li{
+        display: inline-block;
+        margin-left: 40px;
+        list-style: none;
+       
+    }
+    
+    nav ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+    }
+    
+    nav ul li a:hover{
+        text-decoration: underline;
+        transition: 2s;
+    }
+    
+    a {
+        cursor: pointer;
+    }
+    .disciplina_link{
+      
+        border: 1px solid black;
+        padding: 5px;
+        border-radius: 5px;
+      
+    }
+    
+    .disciplina_link:hover{
+        text-decoration: none;
+       
+        background-color: black;
+        color: white;
+        border: none;
+       
+    }
+    
+.header{
+    width: 100%;
+    
+    position: relative;
+    padding: 0 5;
+    
+    }
+    
+    .emphasis{
+        color: brown;
+    }
+    
+    .summary{
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin-left: 3%;
+        border-bottom: 1px solid black;
+    }
+    
+    .summary h1{
+        color: black;
+    }
+    
+    .head{
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin-left: 3%;
+       
+    }
+    
+    .content-section{
+      
+        width: 100%;
+        margin-left: 20%;
+        margin-top: 2%;
+        line-height: 26px;
+        border-bottom: 1px solid black ;
+       
+    }
+    
+    .content-section p{
+        margin-bottom: 15px;
+        font-size: 30px;
+        text-align: center;
+        padding: 30px;
+    }
+    
+    .content-section h6{
+        text-align: center;
+    }
+    .pictures{
+        display: flex;
+    }
+    .content-section h1{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .image1{
+        display: flex;
+       
+    }
+    
+    .image1 p{
+        margin-top: 10%;
+        position: relative;
+        font-size: 20px;
+        text-align: center;
+        padding: 20px;
+    }
+    .image1 img{
+        margin: 20px;
+        border-radius: 10px;
+        width: 40%;
+        
+      
+    }
+    
+    .image{
+        display: flex;
+       
+    }
+    
+    .image p{
+        margin-top: 10%;
+        position: relative;
+        font-size: 30px;
+        text-align: center;
+        padding: 20px;
+    }
+    .image img{
+        margin: 20px;
+        border-radius: 10px;
+        width: 40%;
+        
+      
+    }
+    
+    footer{
+        background-color: black;
+       
+        margin-bottom: 0%;
+        width: 100%;
+        color: black;
+        align-items: center;
+        justify-content: space-between;
+    
+    }
+    
+     footer ul{
+        
+        display: flex;
+       
+    
+    }
+    footer ul li{
+      
+        text-decoration: none;
+        list-style: none;
+        padding: 20px;
+        margin-top: 10%;
+    }
+    footer ul li a{
+        color: white;
+        text-decoration: none;
+        
+       
+    }
+    footer ul li a:hover{
+        font-weight: bolder;
+    }
+    
+    footer ul li a img:hover{
+        width: 25px;
+    }
+    
+  
+    .section--hidden{
+        opacity: 0;
+        transform: translateY(8rem) ;
+    }
+    
+    .copyright{
+        color: white;
+    }
+}
+
