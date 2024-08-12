@@ -11,12 +11,13 @@
 html{
     scroll-behavior: smooth;
     font-family:  'Montserrat', sans-serif ;
+    width: 100%;
 }
 .announcement-message{
     position: relative;
-    background: linear-gradient( to right, rgb(10, 10, 10), rgb(219, 209, 209));
-    height: 7%;
-  text-align: center;
+    background: linear-gradient( to left, rgb(10, 10, 10), rgb(219, 209, 209));
+    height: 4%;
+  text-align: right;
 
   color: white;
   font-size: 12px;
@@ -31,6 +32,8 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+   
+    background: white;
     
 }
 
@@ -50,7 +53,7 @@ nav ul li{
 
 nav ul li a{
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: 15px;
 }
 
@@ -117,10 +120,10 @@ a {
 
 .disciplina_link{
   
-    border: 1px solid black;
+   
     padding: 5px;
     border-radius: 5px;
-  
+    color:bisque;
 }
 
 .disciplina_link:hover{
@@ -169,6 +172,7 @@ padding: 0 5;
    font-family: 'Montserrat', sans-serif;
    color: white;
    font-size: 40px;
+   font-weight: lighter;
 }
 
 
@@ -224,15 +228,29 @@ margin-left: 40%;
     display: block;
     align-items: center;
     height: 100vh;
-    background: black;
+    background: white;
 
  
 }
 
-.desciplina h1{
-     color: white;
+.disciplina__content{
+    display: flex;
 }
 
+.desciplina h1{
+     color: black;
+     font-family: 'Dancing Script';
+     font-size: 100px;
+}
+
+.desciplina p{
+    color: black;
+    font-size: 20px;
+}
+.desciplina img{
+    width: 40%;
+    margin-left: 40%;
+}
 .desciplina--video{
     position:relative ;
     right: 0;
@@ -264,12 +282,31 @@ margin-left: 40%;
     margin-top: 10px;
     font-size: 12px;
 }
+
+
+.media{
+    background: transparent;
+    display: block;
+    width: 100%;
+  }
+  
+  .media img{
+  
+    width: 60%;
+    background: transparent;
+    border-radius: 10px;
+  padding: 10px;
+  margin-left: 20%;
+  
+  }
 .buttons button{
     padding: 1%;
-    border-radius: 10px;
+    border-radius: 20px;
     border: none;
     width: 20%;
     cursor: pointer;
+    background: white;
+    border: 2px solid black;
     
 }
 .buttons button:hover{
@@ -278,24 +315,13 @@ margin-left: 40%;
 }
 
 .buttons button a{
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
-.learn--more{
-    background: black;
-border: 2px solid white;
 
-   
-}
 
-.go--to{
-    background:  aquamarine;
-   
 
-    
-   
-}
 .product--video{
     position:relative ;
     right: 0;
@@ -521,6 +547,8 @@ body{
         display: none;
     
     }
+
+    
     nav ul li{
         display: inline-block;
         margin-left: 10px;
@@ -531,7 +559,7 @@ body{
     nav ul li a{
         text-decoration: none;
         color: white;
-        font-size: 12px;
+        font-size: 10px;
     }
     
     nav ul li a:hover{
@@ -579,6 +607,11 @@ body{
         text-align: center;
         margin-top: 10px;
         font-size: 12px;
+    }
+
+    .desciplina img{
+        width: 50%;
+        margin-left: 25%;
     }
     h2{
         color: white;
@@ -645,7 +678,7 @@ body{
         padding: 20px ;
         display: block;
         align-items: center;
-        height: 120vh;
+        height: 80vh;
         background: black;
     
      
@@ -665,15 +698,7 @@ body{
     .desciplina p{
         color: white;
    }
-    .desciplina--video{
-        position:relative ;
-        right: 0;
-         bottom: 0;
-      
-         opacity:0.8;
-         width: 100%;
-         margin-left: 10%;
-     }
+    
     
     .periodic--table{
         width: 100%;
@@ -682,7 +707,7 @@ body{
         padding: 20px ;
         display: block;
         align-items: center;
-        height: 100vh;
+        height: 80vh;
     
      
     }
