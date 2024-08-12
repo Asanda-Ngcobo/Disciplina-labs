@@ -73,8 +73,8 @@ setInterval(function(){
 const message = document.createElement('div'); //create a div elemetnt
 message.classList.add('announcement-message');
 
-message.innerHTML = `<p>It is true, Practice makes perfect.
-<a href="https://disciplina.co.za/" class="disciplina_link" target="_blank">Try Disciplina &rightarrow;</a>
+message.innerHTML = `<p>It is true, Practice makes perfect. Try
+<a href="https://disciplina.co.za/" class="disciplina_link" target="_blank"> Disciplina</a>
 today to learn and practice math and physics problems for free!!</p>`;
 
 const header = document.querySelector('.header');
