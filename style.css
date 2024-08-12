@@ -162,6 +162,9 @@ padding: 0 5;
 
 }
 
+.phone{
+    display: none;
+}
 .content{
     text-align: center;
     margin-top: 10%;
@@ -519,12 +522,13 @@ body{
     .announcement-message{
         position: relative;
         background: linear-gradient( to right, rgb(10, 10, 10), rgb(219, 209, 209));
-        height: 7%;
+        height: 5%;
       text-align: center;
     
       color: white;
-      font-size: 12px;
+      font-size: 8px;
       width: 100%;
+      top: 0;
     }
     
     .html{
@@ -539,7 +543,7 @@ body{
         display: flex;
         align-items: center;
         justify-content: space-between;
-        background: rgb(66, 61, 61);
+        background: white;
     }
     
     .sticky{
@@ -547,9 +551,12 @@ body{
     
     }
 
-    
+    .nav h1{
+        font-size: 20px;
+        text-align: center;
+    }
     nav ul li{
-        display: inline-block;
+        display: none;
         margin-left: 10px;
         list-style: none;
        z-index: 5;
@@ -626,49 +633,67 @@ body{
     height: 100vh;
     position: relative;
    
-    margin-top: 0;
+    margin-top: 0%;
     
     }
     
+    .computer{
+        display: none;
+    }
+
+    .phone{
+        display: block;
+    }
     .content{
         text-align: center;
         margin-top: 0%;
-        height: 100vh;
+        height: 80vh;
+        width: 100%;
         
+    }
+    .backvideo{
+        height: 100vh;
+        margin-top: 10%;
     }
     
     .text-content{
         position: relative;
-        margin-top: 25%;
+        margin-top: 10%;
     }
     .content h1{
        font-family: 'Montserrat', sans-serif;
-       color: black;
+       color: white;
        font-size: 20px;
-       margin-bottom: 10%;
+       margin-top: 30%;
+       font-weight: bolder;
     }
     
     
-    .backvideo{
-       display: none;
+   
+.section h1{
+    margin-left: 40%;
     }
     
-    .about{
-        border: 1px solid black;
-        padding: 5px;
-        border-radius: 5px;
+    .about:hover{
+        background-color: white;
         color: black;
-        text-decoration: none;
-        margin-top: 5%;
+        border: none;
+        transition: 2s;
+    }
+    .section__1{
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        background: black;
+        padding-top: 5%;
        
     }
     
-    .section h1{
-    text-align: center;
+    .section__1 h1{
+        color: white;
+        position: relative;
+      
     }
-    
-    
-
     
     .desciplina{
         width: 100%;
@@ -677,56 +702,72 @@ body{
         padding: 20px ;
         display: block;
         align-items: center;
-        height: 80vh;
-        background: black;
+        height: auto;
+        background: white;
     
      
+    }
+    
+    .disciplina__content{
+        display: flex;
+        width: 100%;
     }
     
     .desciplina h1{
-         color: white;
-    }
-
-    .section h1{
-        margin-left: 10%;
+         color: black;
+         font-family: 'Dancing Script';
+         font-size: 40px;
     }
     
-    .section p{
-        margin-left: 10%;
-    }
     .desciplina p{
-        color: white;
-   }
-    
-    
-    .periodic--table{
-        width: 100%;
-        position: relative;
-        left: 0;
-        padding: 20px ;
-        display: block;
-        align-items: center;
-        height: 80vh;
-    
-     
+        color: black;
+        font-size: 10px;
     }
-    
-   
-    .buttons{
-        margin-left: 20%;
-        display: block;
-        width: 100%;
+    .desciplina img{
+        width: 80%;
+        margin-left: 40%;
+    }
+    .desciplina video{
+        position:relative ;
+        right: 0;
+         bottom: 0;
       
+         opacity:0.8;
+         width: 120%;
+         margin-left: 20%;
+     }
+    
+    
+    
+    .buttons{
+        margin-left: 40%;
     }
     
+
     
-    .buttons button{
-        padding: 3%;
-        border-radius: 10px;
-        border: none;
+    .media{
+        background: transparent;
+        display: block;
+        width: 100%;
+      }
+      
+      .media img{
+      
         width: 60%;
+        background: transparent;
+        border-radius: 10px;
+      padding: 10px;
+      margin-left: 20%;
+      
+      }
+    .buttons button{
+        padding: 1%;
+        border-radius: 20px;
+        border: none;
+        width: 50%;
         cursor: pointer;
-      margin: 2%;
+        background: white;
+        border: 2px solid black;
         
     }
     .buttons button:hover{
@@ -735,31 +776,20 @@ body{
     }
     
     .buttons button a{
-        color: white;
+        color: black;
         text-decoration: none;
     }
     
-    .learn--more{
-        background: black;
-    border: 2px solid white;
-  
-       
-    }
     
-    .go--to{
-        background:  aquamarine;
-       
     
-        
-       
-    }
+    
     .product--video{
         position:relative ;
         right: 0;
          bottom: 0;
          z-index: -1;
          opacity:0.8;
-         width: 100%;
+         width: 60%;
      }
     .products{
         display: inline-flex;
@@ -795,6 +825,17 @@ body{
     .updates__title h3{
         color: white;
     }
+    
+    .section__2{
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        background: white;
+        padding-top: 5%;
+        background-image: url(Images/quotes\ background.jpg);
+    }
+    
+   
     
     .section__2{
         top: 0;
@@ -903,6 +944,7 @@ body{
     footer ul li a{
         color: white;
         text-decoration: none;
+        font-size: 12px;
         
        
     }
@@ -915,7 +957,8 @@ body{
     }
     
     footer ul li:last-child{
-        margin-left: 50%;
+        margin-left: 5%;
+        font-size: 12px;
     }
     
     .section--hidden{
