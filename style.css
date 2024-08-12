@@ -44,6 +44,10 @@ nav{
    
 
 }
+
+nav h1{
+    font-family: 'Dancing Script';
+}
 nav ul li{
     display: inline-block;
     margin-left: 40px;
@@ -161,12 +165,14 @@ padding: 0 5;
 .content{
     text-align: center;
     margin-top: 10%;
+   
     
 }
 
 .text-content{
     position: relative;
     margin-top: 25%;
+    padding: 3%;
 }
 .content h1{
    font-family: 'Montserrat', sans-serif;
@@ -186,14 +192,7 @@ padding: 0 5;
     filter: brightness(50%);
 }
 
-.about{
-    border: 1px solid white;
-    padding: 5px;
-    border-radius: 5px;
-    color: white;
-    text-decoration: none;
-   
-}
+ 
 
 .section h1{
 margin-left: 40%;
