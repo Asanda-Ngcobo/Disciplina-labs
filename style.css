@@ -39,7 +39,7 @@ nav{
 
 .sticky{
     position: fixed;
-    background-color: rgb(9, 6, 6);
+   box-shadow: 0 0 0 2px rgba(120, 119, 119, 0.4);
     z-index: 1;
    
 
