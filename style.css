@@ -45,8 +45,9 @@ nav{
 
 }
 
+
 nav h1{
-    font-family: 'Dancing Script';
+    font-family: 'Khand';
 }
 nav ul li{
     display: inline-block;
@@ -139,12 +140,7 @@ a {
    
 }
 
-.desciplina p{
-    color: white;
-    margin-left: 36%;
-    margin-top: 10px;
-    font-size: 12px;
-}
+
 h2{
     color: white;
     font-size: 15px;
@@ -178,9 +174,9 @@ padding: 0 5;
     padding: 3%;
 }
 .content h1{
-   font-family: 'Montserrat', sans-serif;
+   font-family: 'Khand', sans-serif;
    color: white;
-   font-size: 40px;
+   font-size: 70px;
    font-weight: lighter;
 }
 
@@ -196,96 +192,91 @@ padding: 0 5;
 }
 
  
-
-.section h1{
-margin-left: 40%;
+.desciplina{
+    width: 80%;
+    margin: 5% 5% 10% 10%;
+    position: relative;
+    left: 0;
+   
+    display: flex;
+    align-items: left;
+    height: 50vh;
+    background: white;
+  border-radius: 10px;
+  border: 1px solid rgba(174, 169, 169);
+ 
 }
 
-.about:hover{
-    background-color: white;
-    color: black;
-    border: none;
-    transition: 2s;
-}
-.section__1{
-    top: 0;
-    width: 100%;
-    height: 100vh;
-    background: black;
-    padding-top: 5%;
+
+.desciplina .text{
+    background: rgba(210, 209, 209, 0.5);
+    text-align: center;
+    padding: 20px;
+    width: 50%;
+ 
+    position: relative;
    
 }
-
-.section__1 h1{
-    color: white;
-    position: relative;
-  
-}
-
-.desciplina{
-    width: 100%;
-    position: relative;
-    left: 0;
-    padding: 20px ;
-    display: block;
-    align-items: center;
-    height: 100vh;
-    background: white;
-
- 
-}
-
-.disciplina__content{
-    display: flex;
-}
-
-.desciplina h1{
+.desciplina .text h1{
      color: black;
-     font-family: 'Dancing Script';
-     font-size: 100px;
+     font-family: 'khand', sans-serif;
+     font-size: 30px;
 }
 
-.desciplina p{
-    color: black;
-    font-size: 20px;
+.text p{
+    color:black;
+    font-size: 16px;
 }
-.desciplina img{
-    width: 40%;
-    margin-left: 40%;
+.desciplina .image{
+    width: 50%;
+   
+ 
 }
-.desciplina--video{
-    position:relative ;
-    right: 0;
-     bottom: 0;
-  
-     opacity:0.8;
-     width: 20%;
-     margin-left: 40%;
- }
-
-.periodic--table{
+.desciplina .image img{
     width: 100%;
+   border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px;
+}
+
+
+.disciplina{
+    width: 80%;
+    margin: 5% 5% 10% 10%;
     position: relative;
     left: 0;
-    padding: 20px ;
-    display: block;
-    align-items: center;
-    height: 100vh;
+   
+    display: flex;
+    align-items: left;
+    height: 50vh;
+    background: white;
+  border-radius: 10px;
 
  
 }
 
-.buttons{
-    margin-left: 40%;
+.disciplina .text{
+   margin-top: 10%;
+   position: relative;
+   width: 50%;
+}
+.disciplina .text h1{
+    color: black;
+    font-family: 'khand', sans-serif;
+    font-size: 30px;
 }
 
-.periodic--table p{
-    margin-left: 30%;
-    margin-top: 10px;
-    font-size: 12px;
+.disciplina .text p{
+   color:black;
+   font-size: 16px;
 }
-
-
+.disciplina .image{
+    width: 50%;
+   
+ 
+}
+.disciplina .image img{
+    width: 100%;
+}
 .media{
     background: transparent;
     display: block;
@@ -303,12 +294,13 @@ margin-left: 40%;
   }
 .buttons button{
     padding: 1%;
-    border-radius: 20px;
+    border-radius: 10px;
     border: none;
     width: 20%;
     cursor: pointer;
-    background: white;
-    border: 2px solid black;
+    background: black;
+    border: none;
+    margin: 10px;
     
 }
 .buttons button:hover{
@@ -317,66 +309,22 @@ margin-left: 40%;
 }
 
 .buttons button a{
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
 
 
-
-.product--video{
-    position:relative ;
-    right: 0;
-     bottom: 0;
-     z-index: -1;
-     opacity:0.8;
-     width: 60%;
- }
-.products{
-    display: inline-flex;
-    padding: 40px 40px 60px 40px;
-}
-
-.product{
-    padding-left: 40px;
-    width: 33%;
-   
-}
-
-.product img{
-    width: 90%;
- 
-   
-    padding: 5px;
-    border-radius: 10px;
-   
-}
-.product img a{
-    cursor: pointer;
-
-   
-}
-.product p{
-    color: white;
-}
-.updates__title{
-    padding: 20px;
-}
-
-.updates__title h3{
-    color: white;
-}
-
-.section__2{
+.section__1{
     top: 0;
     width: 100%;
-    height: 100vh;
+    height: 60vh;
     background: white;
     padding-top: 5%;
-    background-image: url(Images/quotes\ background.jpg);
+  
 }
 
-.section__2 h1{
+.section__1 h1{
     color: black;
     position: relative;
   
@@ -389,7 +337,7 @@ margin-left: 40%;
     margin-left: 20%;
     min-height: 60%;
     
-    box-shadow: 4px 4px 6px black;
+    box-shadow: 4px 4px 6px rgba(164, 161, 161, 0.5);
 }
 
 .quote p{
@@ -420,34 +368,7 @@ margin-left: 40%;
     margin-bottom: 10%;
     
 }
-.section__3{
-    top: 0;
-    width: 100%;
-    height: 100vh;
-    background: black;
-    padding-top: 5%;
-}
 
-.section__3 h1{
-    color: white;
-    position: relative;
-  
-}
-
-.section__4{
-    display: flex;
-}
-
-.section__4 img{
-    margin: 3%;
-}
-.section__4 h2{
-    color: black;
-    position: relative;
-    margin-top: 40%;
-   
-  
-}
 
 .content-section{
   
@@ -515,9 +436,12 @@ footer ul li:last-child{
     color: white;
 }
 
-@media screen and (min-width: 300px) and (max-width: 937px) {
-body{
+@media screen and (min-width: 300px) and (max-width: 410px) {
+
+
+    body{
     width: 100%;
+    color: white;
 }
     .announcement-message{
         position: relative;
@@ -529,6 +453,7 @@ body{
       font-size: 8px;
       width: 100%;
       top: 0;
+      font-family: 'Khand';
     }
     
     .html{
@@ -536,6 +461,7 @@ body{
     }
     nav{
         width: 100%;
+        height: 10vh;
         position: relative;
         top: 0%;
         left: 0;
@@ -546,25 +472,42 @@ body{
         background: white;
     }
     
+    nav h1{
+        color: black;
+        text-align: center;
+    }
     .sticky{
         display: none;
     
     }
 
+    .menu{
+        display: block;
+        background: gray;
+        color: white;
+        padding: 5px;
+        border: none;
+        border-radius: 5px;
+    }
     .nav h1{
         font-size: 20px;
-        text-align: center;
+    
+    }
+    
+    nav ul{
+        width: 100%;
+        height: 100vh;
+        position: fixed;
     }
     nav ul li{
-        display: none;
-        margin-left: 10px;
-        list-style: none;
-       z-index: 5;
+        display: block;
+  
+    
     }
     
     nav ul li a{
         text-decoration: none;
-        color: white;
+        color: black;
         font-size: 10px;
     }
     
@@ -573,12 +516,6 @@ body{
         padding: 10px;
         border-radius: 5px;
        
-    }
-    
-    nav ul li {
-        text-decoration: none;
-        color: white;
-        font-size: 15px;
     }
     
     nav ul li:hover{
@@ -651,215 +588,155 @@ body{
         width: 100%;
         
     }
+
+    .content h1{
+        font-family: 'Khand', sans-serif;
+        color: white;
+        font-size: 40px;
+        font-weight: lighter;
+     }
     .backvideo{
         height: 100vh;
         margin-top: 10%;
     }
-    
-    .text-content{
-        position: relative;
-        margin-top: 10%;
-    }
-    .content h1{
-       font-family: 'Montserrat', sans-serif;
-       color: white;
-       font-size: 20px;
-       margin-top: 30%;
-       font-weight: bolder;
-    }
-    
-    
-   
-.section h1{
-    margin-left: 40%;
-    }
-    
-    .about:hover{
-        background-color: white;
-        color: black;
-        border: none;
-        transition: 2s;
-    }
-    .section__1{
-        top: 0;
-        width: 100%;
-        height: 100vh;
-        background: black;
-        padding-top: 5%;
-       
-    }
-    
-    .section__1 h1{
-        color: white;
-        position: relative;
-      
-    }
-    
-    .desciplina{
-        width: 100%;
-        position: relative;
-        left: 0;
-        padding: 20px ;
-        display: block;
-        align-items: center;
-        height: auto;
-        background: white;
-    
      
-    }
+.desciplina{
+    width: 90%;
+    margin: 20% 20% 5% 5%;
+    position: relative;
+    left: 0;
+   
+    display: block;
+    align-items: left;
+    height: 80vh;
+    background: white;
+  border-radius: 10px;
+border: none;
+ 
+}
+
+
+.desciplina .text{
+    background: rgba(210, 209, 209, 0.5);
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    margin-top: -2%;
+    position: relative;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.desciplina .text h1{
+     color: black;
+     font-family: 'khand', sans-serif;
+     font-size: 30px;
+}
+
+.text p{
+    color:black;
+    font-size: 16px;
+}
+.desciplina .image{
+    width: 100%;
+
+ 
+}
+.desciplina .image img{
+    width: 100%;
+ position: relative;
+ border-top-left-radius: 10px;
+ border-bottom-left-radius: 0px;
+ border-top-right-radius: 10px;
+ margin-left: 0;
+}
+
+
+.disciplina{
+    width: 90%;
+    margin: 5% 5% 5% 5%;
+    position: relative;
+    left: 0;
+   
+    display: block;
+    align-items: left;
+    height: 80vh;
+    background: white;
+  border-radius: 10px;
+
+ 
+}
+
+.disciplina .text{
+   margin-top: 10%;
+   position: relative;
+   width: 100%;
+   text-align: center;
+}
+.disciplina .text h1{
+    color: black;
+    font-family: 'khand', sans-serif;
+    font-size: 30px;
+}
+
+.disciplina .text p{
+   color:black;
+   font-size: 16px;
+}
+.disciplina .image{
+    width: 100%;
+   
+ 
+}
+.disciplina .image img{
+    width: 100%;
+}
+.media{
+    background: transparent;
+    display: block;
+    width: 100%;
+  }
+  
+  .media img{
+  
+    width: 60%;
+    background: transparent;
+    border-radius: 10px;
+  padding: 10px;
+  margin-left: 20%;
+  
+  }
+.buttons button{
+    padding: 2%;
+    border-radius: 10px;
+    border: none;
+    width: 40%;
+    cursor: pointer;
+    background: black;
+    border: none;
+    margin: 10px;
+   
     
-    .disciplina__content{
-        display: flex;
-        width: 100%;
-    }
+}
+.buttons button:hover{
+ opacity: 0.6;
     
-    .desciplina h1{
-         color: black;
-         font-family: 'Dancing Script';
-         font-size: 40px;
-    }
-    
-    .desciplina p{
-        color: black;
-        font-size: 10px;
-    }
-    .desciplina img{
-        width: 80%;
-        margin-left: 40%;
-    }
-    .desciplina video{
-        position:relative ;
-        right: 0;
-         bottom: 0;
-      
-         opacity:0.8;
-         width: 120%;
-         margin-left: 20%;
-     }
-    
-    
-    
-    .buttons{
-        margin-left: 40%;
-    }
-    
+}
+
+.buttons button a{
+    color: white;
+    text-decoration: none;
+}
 
     
-    .media{
-        background: transparent;
-        display: block;
-        width: 100%;
-      }
-      
-      .media img{
-      
-        width: 60%;
-        background: transparent;
-        border-radius: 10px;
-      padding: 10px;
-      margin-left: 20%;
-      
-      }
-    .buttons button{
-        padding: 1%;
-        border-radius: 20px;
-        border: none;
-        width: 50%;
-        cursor: pointer;
-        background: white;
-        border: 2px solid black;
-        
-    }
-    .buttons button:hover{
-     opacity: 0.6;
-        
-    }
-    
-    .buttons button a{
-        color: black;
-        text-decoration: none;
-    }
-    
-    
-    
-    
-    .product--video{
-        position:relative ;
-        right: 0;
-         bottom: 0;
-         z-index: -1;
-         opacity:0.8;
-         width: 60%;
-     }
-    .products{
-        display: inline-flex;
-        padding: 40px 40px 60px 40px;
-    }
-    
-    .product{
-        padding-left: 40px;
-        width: 33%;
-       
-    }
-    
-    .product img{
-        width: 90%;
-     
-       
-        padding: 5px;
-        border-radius: 10px;
-       
-    }
-    .product img a{
-        cursor: pointer;
-    
-       
-    }
-    .product p{
-        color: white;
-    }
-    .updates__title{
-        padding: 20px;
-    }
-    
-    .updates__title h3{
-        color: white;
-    }
-    
-    .section__2{
-        top: 0;
-        width: 100%;
-        height: 100vh;
-        background: white;
-        padding-top: 5%;
-        background-image: url(Images/quotes\ background.jpg);
-    }
-    
-   
-    
-    .section__2{
-        top: 0;
-        width: 100%;
-        height: 100vh;
-        background: white;
-        padding-top: 5%;
-        background-image: url(Images/quotes\ background.jpg);
-    }
-    
-    .section__2 h1{
-        color: black;
-        position: relative;
-      
-    }
+  
     
     .main_quote_content{
         width: 80%;
         background-color: white;
        
         margin-left: 10%;
-        height: 60%;
-        
-        box-shadow: 4px 4px 6px black;
+        height: 40%;
+        box-shadow: 4px 4px 4px rgba(164, 161, 161, 0.5);
     }
  
     .person{
@@ -876,42 +753,14 @@ body{
     .main_quote_content .text_area{
         font-size: 1.4rem;
         margin: 10%;
-     
+     color: black;
+     font-size: 14px;
+     font-family: 'Montserrat', sans-serif;
     }
     
     
-    .main_quote_content img{   
-        
-        position: relative;
-        margin-bottom: 10%;
-        
-    }
-    .section__3{
-        top: 0;
-        width: 100%;
-        height: 100vh;
-        background: black;
-        padding-top: 5%;
-    }
-    
-    .section__3 h1{
-        color: white;
-        position: relative;
-      
-    }
-    
-   
-    
-    .content-section{
-      
-        width: 60%;
-        margin-left: 20%;
-        margin-top: 10%;
-        line-height: 26px;
-        border-bottom: 1px solid black ;
-        
-       
-    }
+
+  
     
     .content-section p{
         margin-bottom: 15px;
@@ -930,16 +779,17 @@ body{
     
      footer ul{
         
-        display: flex;
-       
+        display: block;
+
     
     }
     footer ul li{
       
         text-decoration: none;
         list-style: none;
-        padding: 20px;
+        padding: 10px;
         margin-top: 10%;
+        text-align: center;
     }
     footer ul li a{
         color: white;
@@ -957,7 +807,1160 @@ body{
     }
     
     footer ul li:last-child{
-        margin-left: 5%;
+        margin-left: 0%;
+        font-size: 12px;
+    }
+    
+    .section--hidden{
+        opacity: 0;
+        transform: translateY(8rem) ;
+    }
+    
+    .copyright{
+        color: white;
+    }
+}
+@media screen and (min-width: 411px) and (max-width:500px) {
+
+
+    body{
+    width: 100%;
+    color: white;
+}
+    .announcement-message{
+        position: relative;
+        background: linear-gradient( to right, rgb(10, 10, 10), rgb(219, 209, 209));
+        height: 5%;
+      text-align: center;
+    
+      color: white;
+      font-size: 8px;
+      width: 100%;
+      top: 0;
+    }
+    
+    .html{
+         width: 100%;
+    }
+    nav{
+        width: 100%;
+        height: 10vh;
+        position: relative;
+        top: 0%;
+        left: 0;
+        padding: 20px ;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: white;
+    }
+    
+    nav h1{
+        color: black;
+        text-align: center;
+    }
+    .sticky{
+        display: none;
+    
+    }
+
+    .menu{
+        display: block;
+        background: gray;
+        color: white;
+        padding: 5px;
+        border: none;
+        border-radius: 5px;
+    }
+    .nav h1{
+        font-size: 20px;
+    
+    }
+    
+    nav ul{
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+    }
+    nav ul li{
+        display: block;
+  
+    
+    }
+    
+    nav ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+    }
+    
+    nav ul li a:hover{
+        background: gray;
+        padding: 10px;
+        border-radius: 5px;
+       
+    }
+    
+    nav ul li:hover{
+        background: gray;
+        padding: 10px;
+        border-radius: 5px;
+       
+    }
+    
+    
+    
+    
+    .disciplina_link{
+      
+    
+        padding: 5px;
+        border-radius: 5px;
+      
+    }
+    
+    .disciplina_link:hover{
+        text-decoration: none;
+       
+        background-color: white;
+        color: black;
+        border: none;
+       
+    }
+    
+    .desciplina p{
+        color:white;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 12px;
+    }
+
+    .desciplina img{
+        width: 50%;
+        margin-left: 25%;
+    }
+    h2{
+        color: white;
+        font-size: 15px;
+    }
+    
+    h5{
+        color: white;
+        padding: 10px;
+    }
+    .header{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+   
+    margin-top: 0%;
+    
+    }
+    
+    .computer{
+        display: none;
+    }
+
+    .phone{
+        display: block;
+    }
+    .content{
+        text-align: center;
+        margin-top: 0%;
+        height: 80vh;
+        width: 100%;
+        
+    }
+    .content h1{
+        font-family: 'Khand', sans-serif;
+        color: white;
+        font-size: 50px;
+        font-weight: lighter;
+     }
+    .backvideo{
+        height: 100vh;
+        margin-top: 10%;
+    }
+     
+.desciplina{
+    width: 90%;
+    margin: 5% 5% 5% 5%;
+    position: relative;
+    left: 0;
+   
+    display: block;
+    align-items: left;
+    height: 70vh;
+    background: white;
+  border-radius: 10px;
+border: none;
+ 
+}
+
+
+.desciplina .text{
+    background: rgba(210, 209, 209, 0.5);
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    margin-top: -2%;
+    position: relative;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.desciplina .text h1{
+     color: black;
+     font-family: 'khand', sans-serif;
+     font-size: 30px;
+}
+
+.text p{
+    color:black;
+    font-size: 16px;
+}
+.desciplina .image{
+    width: 100%;
+
+ 
+}
+.desciplina .image img{
+    width: 100%;
+ position: relative;
+ border-top-left-radius: 10px;
+ border-bottom-left-radius: 0px;
+ border-top-right-radius: 10px;
+ margin-left: 0;
+}
+
+
+.disciplina{
+    width: 90%;
+    margin: 5% 5% 5% 5%;
+    position: relative;
+    left: 0;
+   
+    display: block;
+    align-items: left;
+    height: 60vh;
+    background: white;
+  border-radius: 10px;
+
+ 
+}
+
+.disciplina .text{
+   margin-top: 10%;
+   position: relative;
+   width: 100%;
+   text-align: center;
+}
+.disciplina .text h1{
+    color: black;
+    font-family: 'khand', sans-serif;
+    font-size: 30px;
+}
+
+.disciplina .text p{
+   color:black;
+   font-size: 16px;
+}
+.disciplina .image{
+    width: 100%;
+   
+ 
+}
+.disciplina .image img{
+    width: 100%;
+}
+.media{
+    background: transparent;
+    display: block;
+    width: 100%;
+  }
+  
+  .media img{
+  
+    width: 60%;
+    background: transparent;
+    border-radius: 10px;
+  padding: 10px;
+  margin-left: 20%;
+  
+  }
+.buttons button{
+    padding: 2%;
+    border-radius: 10px;
+    border: none;
+    width: 40%;
+    cursor: pointer;
+    background: black;
+    border: none;
+    margin: 10px;
+   
+    
+}
+.buttons button:hover{
+ opacity: 0.6;
+    
+}
+
+.buttons button a{
+    color: white;
+    text-decoration: none;
+}
+
+    
+  
+    
+    .main_quote_content{
+        width: 80%;
+        background-color: white;
+       
+        margin-left: 10%;
+        height: 40%;
+        box-shadow: 4px 4px 4px rgba(164, 161, 161, 0.5);
+    }
+ 
+    .person{
+      
+        position: relative;
+        font-size: 1rem;
+        color: red;
+        text-transform: uppercase;
+        margin-top: 5%;
+      margin-left: 30%;
+      text-decoration: underline;
+    }
+    
+    .main_quote_content .text_area{
+        font-size: 1.4rem;
+        margin: 10%;
+     color: black;
+     font-size: 14px;
+     font-family: 'Montserrat', sans-serif;
+    }
+    
+    
+
+  
+    
+    .content-section p{
+        margin-bottom: 15px;
+    }
+    
+    footer{
+        background-color: black;
+        height: 50vh;
+        margin-bottom: 0%;
+    
+        color: black;
+        align-items: center;
+        justify-content: space-between;
+    
+    }
+    
+     footer ul{
+        
+        display: block;
+
+    
+    }
+    footer ul li{
+      
+        text-decoration: none;
+        list-style: none;
+        padding: 10px;
+        margin-top: 10%;
+        text-align: center;
+    }
+    footer ul li a{
+        color: white;
+        text-decoration: none;
+        font-size: 12px;
+        
+       
+    }
+    footer ul li a:hover{
+        font-weight: bolder;
+    }
+    
+    footer ul li a img:hover{
+        width: 25px;
+    }
+    
+    footer ul li:last-child{
+        margin-left: 0%;
+        font-size: 12px;
+    }
+    
+    .section--hidden{
+        opacity: 0;
+        transform: translateY(8rem) ;
+    }
+    
+    .copyright{
+        color: white;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width:800px) {
+
+
+    body{
+    width: 100%;
+    color: white;
+}
+    .announcement-message{
+        position: relative;
+        background: linear-gradient( to right, rgb(10, 10, 10), rgb(219, 209, 209));
+        height: 5%;
+      text-align: center;
+    
+      color: white;
+      font-size: 8px;
+      width: 100%;
+      top: 0;
+    }
+    
+    .html{
+         width: 100%;
+    }
+    nav{
+        width: 100%;
+        height: 10vh;
+        position: relative;
+        top: 0%;
+        left: 0;
+        padding: 20px ;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: white;
+    }
+    
+    nav h1{
+        color: black;
+        text-align: center;
+    }
+    .sticky{
+        display: none;
+    
+    }
+
+    .menu{
+        display: block;
+        background: gray;
+        color: white;
+        padding: 5px;
+        border: none;
+        border-radius: 5px;
+    }
+    .nav h1{
+        font-size: 20px;
+    
+    }
+    
+    nav ul{
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+    }
+    nav ul li{
+        display: block;
+  
+    
+    }
+    
+    nav ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+    }
+    
+    nav ul li a:hover{
+        background: gray;
+        padding: 10px;
+        border-radius: 5px;
+       
+    }
+    
+    nav ul li:hover{
+        background: gray;
+        padding: 10px;
+        border-radius: 5px;
+       
+    }
+    
+    
+    
+    
+    .disciplina_link{
+      
+    
+        padding: 5px;
+        border-radius: 5px;
+      
+    }
+    
+    .disciplina_link:hover{
+        text-decoration: none;
+       
+        background-color: white;
+        color: black;
+        border: none;
+       
+    }
+    
+    .desciplina p{
+        color:white;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 12px;
+    }
+
+    .desciplina img{
+        width: 50%;
+        margin-left: 25%;
+    }
+    h2{
+        color: white;
+        font-size: 15px;
+    }
+    
+    h5{
+        color: white;
+        padding: 10px;
+    }
+    .header{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+   
+    margin-top: 0%;
+    
+    }
+    
+    .computer{
+        display: none;
+    }
+
+    .phone{
+        display: block;
+    }
+    .content{
+        text-align: center;
+        margin-top: 0%;
+        height: 100vh;
+        width: 100%;
+        
+    }
+    .content h1{
+        font-family: 'Khand', sans-serif;
+        color: white;
+        font-size: 50px;
+        font-weight: lighter;
+        text-align: center;
+        margin: 0 0 2% 2%;
+     }
+    .backvideo{
+        height: 100vh;
+        margin-top: 10%;
+        width: 100%;
+    }
+     
+.desciplina{
+    width: 90%;
+    margin: 5% 5% 5% 5%;
+    position: relative;
+    left: 0;
+   
+    display: block;
+    align-items: left;
+    height: 70vh;
+    background: white;
+  border-radius: 10px;
+border: none;
+ 
+}
+
+
+.desciplina .text{
+    background: rgba(210, 209, 209, 0.5);
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    margin-top: -2%;
+    position: relative;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.desciplina .text h1{
+     color: black;
+     font-family: 'khand', sans-serif;
+     font-size: 30px;
+}
+
+.text p{
+    color:black;
+    font-size: 16px;
+}
+.desciplina .image{
+    width: 100%;
+
+ 
+}
+.desciplina .image img{
+    width: 100%;
+ position: relative;
+ border-top-left-radius: 10px;
+ border-bottom-left-radius: 0px;
+ border-top-right-radius: 10px;
+ margin-left: 0;
+}
+
+
+.disciplina{
+    width: 90%;
+    margin: 5% 5% 5% 5%;
+    position: relative;
+    left: 0;
+   
+    display: block;
+    align-items: left;
+    height: 80vh;
+    background: white;
+  border-radius: 10px;
+
+ 
+}
+
+.disciplina .text{
+   margin-top: 10%;
+   position: relative;
+   width: 100%;
+   text-align: center;
+}
+.disciplina .text h1{
+    color: black;
+    font-family: 'khand', sans-serif;
+    font-size: 30px;
+}
+
+.disciplina .text p{
+   color:black;
+   font-size: 16px;
+}
+.disciplina .image{
+    width: 100%;
+   
+ 
+}
+.disciplina .image img{
+    width: 100%;
+}
+.media{
+    background: transparent;
+    display: block;
+    width: 100%;
+  }
+  
+  .media img{
+  
+    width: 60%;
+    background: transparent;
+    border-radius: 10px;
+  padding: 10px;
+  margin-left: 20%;
+  
+  }
+.buttons button{
+    padding: 2%;
+    border-radius: 10px;
+    border: none;
+    width: 40%;
+    cursor: pointer;
+    background: black;
+    border: none;
+    margin: 10px;
+   
+    
+}
+.buttons button:hover{
+ opacity: 0.6;
+    
+}
+
+.buttons button a{
+    color: white;
+    text-decoration: none;
+}
+
+    
+  
+    
+    .main_quote_content{
+        width: 80%;
+        background-color: white;
+       
+        margin-left: 10%;
+        height: 40%;
+        box-shadow: 4px 4px 4px rgba(164, 161, 161, 0.5);
+    }
+ 
+    .person{
+      
+        position: relative;
+        font-size: 1rem;
+        color: red;
+        text-transform: uppercase;
+        margin-top: 5%;
+      margin-left: 30%;
+      text-decoration: underline;
+    }
+    
+    .main_quote_content .text_area{
+        font-size: 1.4rem;
+        margin: 10%;
+     color: black;
+     font-size: 14px;
+     font-family: 'Montserrat', sans-serif;
+    }
+    
+    
+
+  
+    
+    .content-section p{
+        margin-bottom: 15px;
+    }
+    
+    footer{
+        background-color: black;
+        height: 50vh;
+        margin-bottom: 0%;
+    
+        color: black;
+        align-items: center;
+        justify-content: space-between;
+    
+    }
+    
+     footer ul{
+        
+        display: block;
+
+    
+    }
+    footer ul li{
+      
+        text-decoration: none;
+        list-style: none;
+        padding: 10px;
+        margin-top: 10%;
+        text-align: center;
+    }
+    footer ul li a{
+        color: white;
+        text-decoration: none;
+        font-size: 12px;
+        
+       
+    }
+    footer ul li a:hover{
+        font-weight: bolder;
+    }
+    
+    footer ul li a img:hover{
+        width: 25px;
+    }
+    
+    footer ul li:last-child{
+        margin-left: 0%;
+        font-size: 12px;
+    }
+    
+    .section--hidden{
+        opacity: 0;
+        transform: translateY(8rem) ;
+    }
+    
+    .copyright{
+        color: white;
+    }
+}
+
+@media screen and (min-width: 801px) and (max-width:1000px) {
+
+
+    body{
+    width: 100%;
+    color: white;
+}
+    .announcement-message{
+        position: relative;
+        background: linear-gradient( to right, rgb(10, 10, 10), rgb(219, 209, 209));
+        height: 5%;
+      text-align: center;
+    
+      color: white;
+      font-size: 8px;
+      width: 100%;
+      top: 0;
+    }
+    
+    .html{
+         width: 100%;
+    }
+    nav{
+        width: 100%;
+        height: 10vh;
+        position: relative;
+        top: 0%;
+        left: 0;
+        padding: 20px ;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: white;
+    }
+    
+    nav h1{
+        color: black;
+        text-align: center;
+    }
+    .sticky{
+        display: none;
+    
+    }
+
+    .menu{
+        display: block;
+        background: gray;
+        color: white;
+        padding: 5px;
+        border: none;
+        border-radius: 5px;
+    }
+    .nav h1{
+        font-size: 20px;
+    
+    }
+    
+    nav ul{
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+    }
+    nav ul li{
+        display: block;
+  
+    
+    }
+    
+    nav ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+    }
+    
+    nav ul li a:hover{
+        background: gray;
+        padding: 10px;
+        border-radius: 5px;
+       
+    }
+    
+    nav ul li:hover{
+        background: gray;
+        padding: 10px;
+        border-radius: 5px;
+       
+    }
+    
+    
+    
+    
+    .disciplina_link{
+      
+    
+        padding: 5px;
+        border-radius: 5px;
+      
+    }
+    
+    .disciplina_link:hover{
+        text-decoration: none;
+       
+        background-color: white;
+        color: black;
+        border: none;
+       
+    }
+    
+    .desciplina p{
+        color:white;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 12px;
+    }
+
+    .desciplina img{
+        width: 50%;
+        margin-left: 25%;
+    }
+    h2{
+        color: white;
+        font-size: 15px;
+    }
+    
+    h5{
+        color: white;
+        padding: 10px;
+    }
+    .header{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+   
+    margin-top: 0%;
+    
+    }
+    
+    .computer{
+        display: none;
+    }
+
+    .phone{
+        display: block;
+    }
+    .content{
+        text-align: center;
+        margin-top: 0%;
+        height: 100vh;
+        width: 100%;
+        
+    }
+    .content h1{
+        font-family: 'Khand', sans-serif;
+        color: white;
+        font-size: 50px;
+        font-weight: lighter;
+        text-align: center;
+     }
+    .backvideo{
+        height: 100vh;
+        margin-top: 10%;
+        width: 100%;
+    }
+     
+.desciplina{
+    width: 90%;
+    margin: 5% 5% 5% 5%;
+    position: relative;
+    left: 0;
+   
+    display: block;
+    align-items: left;
+    height: 70vh;
+    background: white;
+  border-radius: 10px;
+border: none;
+ 
+}
+
+
+.desciplina .text{
+    background: rgba(210, 209, 209, 0.5);
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    margin-top: -2%;
+    position: relative;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.desciplina .text h1{
+     color: black;
+     font-family: 'khand', sans-serif;
+     font-size: 30px;
+}
+
+.text p{
+    color:black;
+    font-size: 16px;
+}
+.desciplina .image{
+    width: 100%;
+
+ 
+}
+.desciplina .image img{
+    width: 100%;
+ position: relative;
+ border-top-left-radius: 10px;
+ border-bottom-left-radius: 0px;
+ border-top-right-radius: 10px;
+ margin-left: 0;
+}
+
+
+.disciplina{
+    width: 90%;
+    margin: 5% 5% 5% 5%;
+    position: relative;
+    left: 0;
+   
+    display: block;
+    align-items: left;
+    height: 70vh;
+    background: white;
+  border-radius: 10px;
+
+ 
+}
+
+.disciplina .text{
+   margin-top: 10%;
+   position: relative;
+   width: 100%;
+   text-align: center;
+}
+.disciplina .text h1{
+    color: black;
+    font-family: 'khand', sans-serif;
+    font-size: 30px;
+}
+
+.disciplina .text p{
+   color:black;
+   font-size: 16px;
+}
+.disciplina .image{
+    width: 100%;
+   
+ 
+}
+.disciplina .image img{
+    width: 100%;
+}
+.media{
+    background: transparent;
+    display: block;
+    width: 100%;
+  }
+  
+  .media img{
+  
+    width: 60%;
+    background: transparent;
+    border-radius: 10px;
+  padding: 10px;
+  margin-left: 20%;
+  
+  }
+.buttons button{
+    padding: 2%;
+    border-radius: 10px;
+    border: none;
+    width: 40%;
+    cursor: pointer;
+    background: black;
+    border: none;
+    margin: 10px;
+   
+    
+}
+.buttons button:hover{
+ opacity: 0.6;
+    
+}
+
+.buttons button a{
+    color: white;
+    text-decoration: none;
+}
+
+    
+  
+    
+    .main_quote_content{
+        width: 80%;
+        background-color: white;
+       
+        margin-left: 10%;
+        height: 40%;
+        box-shadow: 4px 4px 4px rgba(164, 161, 161, 0.5);
+    }
+ 
+    .person{
+      
+        position: relative;
+        font-size: 1rem;
+        color: red;
+        text-transform: uppercase;
+        margin-top: 5%;
+      margin-left: 30%;
+      text-decoration: underline;
+    }
+    
+    .main_quote_content .text_area{
+        font-size: 1.4rem;
+        margin: 10%;
+     color: black;
+     font-size: 14px;
+     font-family: 'Montserrat', sans-serif;
+    }
+    
+    
+
+  
+    
+    .content-section p{
+        margin-bottom: 15px;
+    }
+    
+    footer{
+        background-color: black;
+        height: 50vh;
+        margin-bottom: 0%;
+    
+        color: black;
+        align-items: center;
+        justify-content: space-between;
+    
+    }
+    
+     footer ul{
+        
+        display: block;
+
+    
+    }
+    footer ul li{
+      
+        text-decoration: none;
+        list-style: none;
+        padding: 10px;
+        margin-top: 10%;
+        text-align: center;
+    }
+    footer ul li a{
+        color: white;
+        text-decoration: none;
+        font-size: 12px;
+        
+       
+    }
+    footer ul li a:hover{
+        font-weight: bolder;
+    }
+    
+    footer ul li a img:hover{
+        width: 25px;
+    }
+    
+    footer ul li:last-child{
+        margin-left: 0%;
         font-size: 12px;
     }
     
