@@ -50,24 +50,9 @@ setInterval(function() {
     quote.innerText =quotes[random].quote;
     person.innerText =quotes[random].person;
    
-}, 10000)
+}, 6000)
 
-const image = document.querySelector('.image');
 
-const images = [
-    {
-        url:'Images/About Us.webp'
-    },
-
-    {
-        url:'Images/Menu.png'
-    }
-]
-
-setInterval(function(){
-    let random = Math.floor(Math.random() *images.length);
-    image.innerHTML = images[random].url;
-}, 2000)
 //Creating and inserting elements
 
 const message = document.createElement('div'); //create a div elemetnt
