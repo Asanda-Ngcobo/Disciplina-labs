@@ -634,7 +634,7 @@ border: none;
 
 .text p{
     color:black;
-    font-size: 16px;
+    font-size: 12px;
 }
 .desciplina .image{
     width: 100%;
@@ -680,7 +680,8 @@ border: none;
 
 .disciplina .text p{
    color:black;
-   font-size: 16px;
+   font-size: 12px;
+   text-align: center;
 }
 .disciplina .image{
     width: 100%;
@@ -1016,7 +1017,7 @@ border: none;
 
 .text p{
     color:black;
-    font-size: 16px;
+    font-size: 12px;
 }
 .desciplina .image{
     width: 100%;
@@ -1062,7 +1063,7 @@ border: none;
 
 .disciplina .text p{
    color:black;
-   font-size: 16px;
+   font-size: 12px;
 }
 .disciplina .image{
     width: 100%;
