@@ -200,7 +200,7 @@ padding: 0 5;
    
     display: flex;
     align-items: left;
-    height: 50vh;
+    height: 55%;
     background: white;
   border-radius: 10px;
   border: 1px solid rgba(174, 169, 169);
@@ -213,8 +213,8 @@ padding: 0 5;
     text-align: center;
     padding: 20px;
     width: 50%;
- 
-    position: relative;
+    
+
    
 }
 .desciplina .text h1{
@@ -228,8 +228,9 @@ padding: 0 5;
     font-size: 16px;
 }
 .desciplina .image{
-    width: 50%;
-   
+  
+   width: 50%;
+
  
 }
 .desciplina .image img{
@@ -257,7 +258,8 @@ padding: 0 5;
 .disciplina .text{
    margin-top: 10%;
    position: relative;
-   width: 50%;
+   width: 40%;
+   margin-left: 10%;
 }
 .disciplina .text h1{
     color: black;
@@ -671,6 +673,7 @@ border: none;
    position: relative;
    width: 100%;
    text-align: center;
+   margin-left: 0%;
 }
 .disciplina .text h1{
     color: black;
@@ -1054,6 +1057,7 @@ border: none;
    position: relative;
    width: 100%;
    text-align: center;
+   margin-left: 0%;
 }
 .disciplina .text h1{
     color: black;
@@ -1440,6 +1444,7 @@ border: none;
    position: relative;
    width: 100%;
    text-align: center;
+   margin-left: 0%;
 }
 .disciplina .text h1{
     color: black;
