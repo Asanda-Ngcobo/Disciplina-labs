@@ -374,8 +374,8 @@ padding: 0 5;
 
 .content-section{
   
-    width: 60%;
-    margin-left: 20%;
+    width: 80%;
+    margin-left: 10%;
     margin-top: 10%;
     line-height: 26px;
     border-bottom: 1px solid black ;
@@ -386,6 +386,41 @@ padding: 0 5;
 .content-section p{
     margin-bottom: 15px;
 }
+
+
+
+.div__2 {
+    width: 100%;
+   
+  
+    padding: 10px;
+  
+    
+   
+  }
+  
+  .div__2 input {
+    width: 50%;
+    border: 1px solid gray;
+    background: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .div__2 button {
+    padding: 8px;
+    background: black;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+  }
+
+  .content-section ul li{
+    margin: 14px;
+  }
 
 footer{
     background-color: black;
@@ -766,10 +801,22 @@ border: none;
 
   
     
-    .content-section p{
-        margin-bottom: 15px;
-    }
+  
+.content-section{
+  
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    line-height: 26px;
+    border-bottom: 1px solid black ;
     
+   
+}
+
+.content-section p{
+    margin-bottom: 15px;
+}
+
     footer{
         background-color: black;
         height: 50vh;
@@ -1149,9 +1196,32 @@ border: none;
 
   
     
-    .content-section p{
-        margin-bottom: 15px;
-    }
+  
+.content-section{
+  
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    line-height: 26px;
+    border-bottom: 1px solid black ;
+    
+   
+}
+
+.content-section p{
+    margin-bottom: 12px;
+    color: black;
+}
+
+.content-section h1{
+    
+    color: black;
+}
+
+.content-section ul li{
+    margin-bottom: 12px;
+    color: black;
+}
     
     footer{
         background-color: black;
